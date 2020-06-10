@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bergc-portfolio/static/css/main.5f361e03.chunk.css",
+    "main.js": "/bergc-portfolio/static/js/main.8a0da4ce.chunk.js",
+    "main.js.map": "/bergc-portfolio/static/js/main.8a0da4ce.chunk.js.map",
+    "runtime-main.js": "/bergc-portfolio/static/js/runtime-main.52a0b02c.js",
+    "runtime-main.js.map": "/bergc-portfolio/static/js/runtime-main.52a0b02c.js.map",
+    "static/js/2.4968d256.chunk.js": "/bergc-portfolio/static/js/2.4968d256.chunk.js",
+    "static/js/2.4968d256.chunk.js.map": "/bergc-portfolio/static/js/2.4968d256.chunk.js.map",
+    "index.html": "/bergc-portfolio/index.html",
+    "precache-manifest.a999be7ee2d4c38582932fde4e5d775c.js": "/bergc-portfolio/precache-manifest.a999be7ee2d4c38582932fde4e5d775c.js",
+    "service-worker.js": "/bergc-portfolio/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/bergc-portfolio/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4968d256.chunk.js.LICENSE.txt": "/bergc-portfolio/static/js/2.4968d256.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52a0b02c.js",
+    "static/js/2.4968d256.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.8a0da4ce.chunk.js"
+  ]
+}

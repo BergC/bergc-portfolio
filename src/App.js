@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
 
+import BigHero from './components/BigHero';
+import Contact from './components/Contact';
+import Nav from './components/Nav';
+
 function App() {
     return (
         <div className='App'>
-            <h1>My React Portfoio</h1>
-            <h2>Author: BergC</h2>
+            <Nav />
+            <BigHero />
+            <Contact />
         </div>
     );
 }

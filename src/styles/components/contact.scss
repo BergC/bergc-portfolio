@@ -1,0 +1,25 @@
+.contact {
+    position: absolute;
+    right: 8%;
+    top: 38%;
+    z-index: 1;
+}
+
+.contact__list {
+    list-style: none;
+    position: absolute;
+}
+
+.contact__list-item {
+    color: grey;
+    display: inline-block !important;
+    font-size: 1.5rem;
+    margin: 0.8rem 0;
+    padding: 0.2rem 0;
+    transition: color 0.5s linear;
+
+    &:hover {
+        cursor: pointer;
+        color: white;
+    }
+}

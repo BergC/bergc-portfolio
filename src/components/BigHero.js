@@ -11,7 +11,7 @@ const BigHero = () => (
                         'Chris Berg',
                         'a skiier',
                         'a developer',
-                        'a homemade ramen enthusiast',
+                        'a homemade ramen chef',
                         'a beer brewer',
                         'a mountain biker',
                     ],

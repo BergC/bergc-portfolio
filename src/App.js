@@ -4,6 +4,7 @@ import './App.scss';
 import BigHero from './components/BigHero';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
+import Portfolio from './components/Portfolio';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Nav />
             <BigHero />
             <Contact />
+            <Portfolio />
         </div>
     );
 }

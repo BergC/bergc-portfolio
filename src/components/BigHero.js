@@ -1,26 +1,29 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Typewriter from 'typewriter-effect';
 
 const BigHero = () => (
-    <div>
-        <h1>
-            I am
-            <Typewriter
-                options={{
-                    strings: [
-                        'Chris Berg',
-                        'a skiier',
-                        'a developer',
-                        'a homemade ramen chef',
-                        'a beer brewer',
-                        'a mountain biker',
-                    ],
-                    autoStart: true,
-                    loop: true,
-                }}
-            />
-        </h1>
-    </div>
+    <Fragment>
+        <div className='bighero'>
+            <h1 className='bighero__header'>
+                <Typewriter
+                    options={{
+                        strings: [
+                            'chris berg',
+                            'skiier',
+                            'developer',
+                            'homemade ramen chef',
+                            'beer brewer',
+                            'mountain biker',
+                        ],
+                        autoStart: true,
+                        loop: true,
+                    }}
+                />
+            </h1>
+        </div>
+
+        <button className='bighero__button'>See Stuff</button>
+    </Fragment>
 );
 
 export default BigHero;

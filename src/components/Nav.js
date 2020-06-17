@@ -4,11 +4,11 @@ const Nav = () => (
     <nav className='nav'>
         <ul className='nav__list'>
             <li className='nav__list-item'>
-                About
+                Portfolio
                 <span className='nav__slider'></span>
             </li>
             <li className='nav__list-item'>
-                Portfolio
+                About
                 <span className='nav__slider'></span>
             </li>
             <li className='nav__list-item'>

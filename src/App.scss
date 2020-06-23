@@ -3,8 +3,10 @@
 
 // Base CSS
 @import './styles/base/base.scss';
+@import './styles/base/wrapper.scss';
 
 // Components
 @import './styles/components/bighero.scss';
 @import './styles/components/contact.scss';
 @import './styles/components/nav.scss';
+@import './styles/components/portfolio.scss';

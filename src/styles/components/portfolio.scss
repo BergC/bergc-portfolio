@@ -1,5 +1,13 @@
 .portfolio__project {
-    margin: 1.8rem 0;
+    // align-items: center;
+    // // background: white;
+    // display: flex;
+    // justify-content: space-between;
+    // width: auto;
+}
+
+.portfolio__project-title {
+    // margin: 1.8rem 0;
 }
 
 .portfolio__project-num {
@@ -18,5 +26,17 @@
 
     &:hover {
         color: rgb(23, 167, 88);
+        letter-spacing: 2px;
+    }
+}
+
+.portfolio__frameworks {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: lighter;
+
+    & li {
+        margin: 1rem;
     }
 }

@@ -10,9 +10,13 @@ function App() {
     return (
         <div className='App'>
             <Nav />
-            <BigHero />
+
+            <div id='content-wrapper'>
+                <BigHero />
+                <Portfolio />
+            </div>
+
             <Contact />
-            <Portfolio />
         </div>
     );
 }

@@ -1,6 +1,13 @@
-.wrapper {
-    border-radius: 5px;
-    margin: 0 auto;
-    max-width: 75rem;
-    width: 75%;
+// .wrapper {
+//     border-radius: 5px;
+//     margin: 0 auto;
+//     max-width: 75rem;
+//     width: 75%;
+// }
+
+#content-wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
 }

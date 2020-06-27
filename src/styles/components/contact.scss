@@ -1,25 +1,22 @@
 .contact {
+    bottom: 2%;
     position: absolute;
-    right: 8%;
-    top: 38%;
+    width: 100%;
 }
 
 .contact__list {
+    color: grey;
+    display: flex;
     list-style: none;
-    position: absolute;
+    justify-content: space-evenly;
 }
 
 .contact__list-item {
-    color: grey;
-    display: inline-block !important;
-    font-size: 1.5rem;
-    margin: 0.8rem 0;
-    padding: 0.2rem 0;
-    transition: color 0.5s linear;
+    font-size: 2.1rem;
+    transition: all 0.3s ease-in-out;
 
     &:hover {
         cursor: pointer;
-        // color: rgb(23, 167, 88);
         color: white;
     }
 }

@@ -1,13 +1,19 @@
-.portfolio__project {
-    // align-items: center;
-    // // background: white;
-    // display: flex;
-    // justify-content: space-between;
-    // width: auto;
+.portfolio {
+    margin: 1rem auto 0 auto;
+    text-align: left;
+    width: 60%;
 }
 
-.portfolio__project-title {
-    // margin: 1.8rem 0;
+.portfolio__project {
+    margin-top: 1.8rem;
+}
+
+.project__plus {
+    color: white;
+}
+
+.portfolio__project:first-child {
+    margin-top: 0;
 }
 
 .portfolio__project-num {
@@ -31,12 +37,13 @@
 }
 
 .portfolio__frameworks {
+    color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     list-style: none;
     font-weight: lighter;
 
     & li {
-        margin: 1rem;
+        margin-top: 0.2rem;
     }
 }

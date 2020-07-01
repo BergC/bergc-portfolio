@@ -12,15 +12,13 @@ const Portfolio = () => (
                     </a>
                 </h3>
 
-                <Fade left>
-                    <ul className='portfolio__frameworks'>
-                        <li>Node.js</li>
-                        <li>REACT</li>
-                        <li>MongoDB</li>
-                        <li>Express</li>
-                        <li>Sass</li>
-                    </ul>
-                </Fade>
+                <ul className='portfolio__frameworks'>
+                    <li>Node.js</li>
+                    <li>REACT</li>
+                    <li>MongoDB</li>
+                    <li>Express</li>
+                    <li>Sass</li>
+                </ul>
             </div>
 
             <div className='portfolio__project'>
@@ -31,15 +29,13 @@ const Portfolio = () => (
                     </a>
                 </h3>
 
-                <Fade left>
-                    <ul className='portfolio__frameworks'>
-                        <li>Node.js</li>
-                        <li>REACT</li>
-                        <li>MongoDB</li>
-                        <li>Express</li>
-                        <li>Sass</li>
-                    </ul>
-                </Fade>
+                <ul className='portfolio__frameworks'>
+                    <li>Node.js</li>
+                    <li>REACT</li>
+                    <li>MongoDB</li>
+                    <li>Express</li>
+                    <li>Sass</li>
+                </ul>
             </div>
 
             <div className='portfolio__project'>
@@ -50,15 +46,13 @@ const Portfolio = () => (
                     </a>
                 </h3>
 
-                <Fade left>
-                    <ul className='portfolio__frameworks'>
-                        <li>Node.js</li>
-                        <li>REACT</li>
-                        <li>Firebase</li>
-                        <li>Express</li>
-                        <li>Sass</li>
-                    </ul>
-                </Fade>
+                <ul className='portfolio__frameworks'>
+                    <li>Node.js</li>
+                    <li>REACT</li>
+                    <li>Firebase</li>
+                    <li>Express</li>
+                    <li>Sass</li>
+                </ul>
             </div>
         </div>
     </div>

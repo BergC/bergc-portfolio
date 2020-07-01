@@ -1,10 +1,13 @@
 .portfolio {
     margin: 1rem auto 0 auto;
-    text-align: left;
-    width: 60%;
+    // position: relative;
+    // text-align: left;
+    // transform: translateY(40%);
+    width: 80%;
 }
 
 .portfolio__project {
+    // display: flex;
     margin-top: 1.8rem;
 }
 
@@ -39,11 +42,13 @@
 .portfolio__frameworks {
     color: white;
     display: flex;
+    font-size: 0.8rem;
     justify-content: space-evenly;
+    // font-weight: lighter;
     list-style: none;
-    font-weight: lighter;
+    text-transform: uppercase;
 
     & li {
-        margin-top: 0.2rem;
+        margin-top: 0.5rem;
     }
 }

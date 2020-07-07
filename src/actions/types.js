@@ -1,0 +1,2 @@
+export const TOGGLE_PORTFOLIO = 'TOGGLE_PORTFOLIO';
+export const TOGGLE_ABOUT = 'TOGGLE_ABOUT';

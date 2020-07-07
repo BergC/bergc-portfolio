@@ -1,8 +1,10 @@
 .portfolio {
-    margin: 1rem auto 0 auto;
-    // position: relative;
-    // text-align: left;
-    // transform: translateY(40%);
+    // margin: 1rem auto 0 auto;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 45.2%;
+    transform: translateX(-50%);
     width: 80%;
 }
 
@@ -41,7 +43,8 @@
 
 .portfolio__frameworks {
     color: white;
-    display: flex;
+    // display: flex;
+    display: none;
     font-size: 0.8rem;
     justify-content: space-evenly;
     // font-weight: lighter;

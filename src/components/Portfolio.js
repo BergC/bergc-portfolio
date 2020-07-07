@@ -2,8 +2,8 @@ import React from 'react';
 import Fade from 'react-reveal';
 
 const Portfolio = () => (
-    <div className='wrapper'>
-        <div className='portfolio'>
+    <div className='portfolio'>
+        <Fade bottom>
             <div className='portfolio__project'>
                 <h3 className='portfolio__project-title'>
                     <sup className='portfolio__project-num'>01</sup>
@@ -54,7 +54,7 @@ const Portfolio = () => (
                     <li>Sass</li>
                 </ul>
             </div>
-        </div>
+        </Fade>
     </div>
 );
 

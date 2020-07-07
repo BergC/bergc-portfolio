@@ -1,22 +1,23 @@
 import React, { Fragment } from 'react';
+
+// Styles
 import './App.scss';
 
-// import BigHero from './components/BigHero';
+// Components
 import Contact from './components/Contact';
+import Display from './components/Display';
 import Nav from './components/Nav';
-import Transition from './components/Transition';
-// import Portfolio from './components/Portfolio';
 
-function App() {
-    return (
-        <div className='App'>
-            <Nav />
+// Redux
+import { Provider } from 'react-redux';
+import store from './store';
 
-            <Transition />
-
-            <Contact />
-        </div>
-    );
-}
+const App = () => (
+    <Provider store={store}>
+        <Nav />
+        <Display />
+        <Contact />
+    </Provider>
+);
 
 export default App;

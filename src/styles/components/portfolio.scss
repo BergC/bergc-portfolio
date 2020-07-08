@@ -1,5 +1,4 @@
 .portfolio {
-    // margin: 1rem auto 0 auto;
     left: 50%;
     position: absolute;
     text-align: center;
@@ -9,12 +8,7 @@
 }
 
 .portfolio__project {
-    // display: flex;
     margin-top: 1.8rem;
-}
-
-.project__plus {
-    color: white;
 }
 
 .portfolio__project:first-child {
@@ -43,15 +37,27 @@
 
 .portfolio__frameworks {
     color: white;
-    // display: flex;
     display: none;
     font-size: 0.8rem;
-    justify-content: space-evenly;
-    // font-weight: lighter;
+    font-weight: lighter;
+    letter-spacing: 2px;
     list-style: none;
     text-transform: uppercase;
+    transition: display 1s ease;
+    transition-delay: 5s;
 
     & li {
         margin-top: 0.5rem;
     }
+}
+
+.portfolio__project-title {
+    display: inline-block;
+    transition: all 1s ease;
+    transition-delay: 1s;
+}
+
+.portfolio__project-title:hover ~ ul {
+    display: block;
+    transition-delay: 1s;
 }

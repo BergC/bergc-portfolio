@@ -9,7 +9,7 @@ const Display = ({ showPortfolio, showAbout, togglePortfolio }) => (
     <Fragment>
         <BigHero />
 
-        {!showPortfolio && (
+        {!showPortfolio && !showAbout && (
             <button
                 className='bighero__button'
                 onClick={() => togglePortfolio()}
@@ -19,6 +19,8 @@ const Display = ({ showPortfolio, showAbout, togglePortfolio }) => (
         )}
 
         {showPortfolio && <Portfolio />}
+
+        {showAbout && <About />}
     </Fragment>
 );
 

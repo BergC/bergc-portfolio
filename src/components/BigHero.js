@@ -1,9 +1,12 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import Typewriter from 'typewriter-effect';
 
-const BigHero = () => {
+const BigHero = ({ showAbout }) => {
     return (
-        <div className='bighero'>
+        <div
+            className={showAbout ? 'bighero bighero--about-display' : 'bighero'}
+        >
             <h1 className='bighero__header'>
                 <Typewriter
                     options={{
@@ -26,4 +29,8 @@ const BigHero = () => {
     );
 };
 
-export default BigHero;
+const mapStateToProps = (state) => ({
+    showAbout: state.display.showAbout,
+});
+
+export default connect(mapStateToProps)(BigHero);

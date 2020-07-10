@@ -6,15 +6,12 @@ const Nav = ({ toggleAbout, toggleProfile }) => (
         <ul className='nav__list'>
             <li className='nav__list-item' onClick={() => toggleProfile()}>
                 Portfolio
-                <span className='nav__slider'></span>
             </li>
             <li className='nav__list-item' onClick={() => toggleAbout()}>
                 About
-                <span className='nav__slider'></span>
             </li>
             <li className='nav__list-item'>
-                Contact
-                <span className='nav__slider'></span>
+                <a href='mailto:christophertberg@gmail.com'>Contact</a>
             </li>
         </ul>
     </nav>

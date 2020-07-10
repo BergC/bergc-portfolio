@@ -20,3 +20,13 @@
         color: white;
     }
 }
+
+.contact__list-item a {
+    color: grey;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: white;
+    }
+}

@@ -1,10 +1,16 @@
 import React, { Fragment } from 'react';
 import Fade from 'react-reveal';
 
+import BigHero from './BigHero';
+
 const About = () => (
-    <div id='about'>
+    <div className='about'>
+        <Fade top>
+            <BigHero />
+        </Fade>
+
         <Fade bottom>
-            <div>
+            <div className='wrapper__content'>
                 <p className='about__text'>
                     While the majority of my middle school and high school
                     courses are a blur, I can vividly remember when my best
@@ -18,16 +24,25 @@ const About = () => (
                 <p className='about__text'>
                     Time went on and I applied to college with no idea what I
                     wanted to do with my life. I defaulted to finance and
-                    economics, which I don't regret as my degree has provided me
-                    with a steady income and the ability to work with hundreds
-                    of founders and venture capitalists along the western coast
-                    of the United States. Throughout college I spent my free
-                    time taking introductory coding courses.
+                    economics, though I spent my free time taking introductory
+                    coding courses.
                 </p>
 
                 <p className='about__text'>
                     Within a year of graduating college I knew I wanted to
-                    commit myself to a career change.
+                    commit myself to a career change and began completing
+                    regimented coding coursework. I would like to state that I
+                    don't regret the path I took, my degree has provided me with
+                    a steady income and the ability to work with hundreds of
+                    brilliant founders and upper-level managers at startups
+                    across the U.S.
+                </p>
+
+                <p className='about__text'>
+                    Currently I'm spending my free time learning about
+                    Artificial Neural Networks ("ANN") and how to build them
+                    using Python. I'm fascinated by the potential of ANNs and I
+                    have much to learn.
                 </p>
 
                 <p className='about__text'>

@@ -1,6 +1,15 @@
-#content-wrapper {
-    position: absolute;
-    top: 45%;
-    transform: translateY(-50%);
-    width: 100%;
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 85rem;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.wrapper__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 35rem;
 }

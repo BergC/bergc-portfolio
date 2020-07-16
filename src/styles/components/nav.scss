@@ -1,19 +1,15 @@
 .nav {
     font-size: 1.1rem;
     font-weight: bold;
-    left: 50%;
     letter-spacing: 2px;
-    position: absolute;
+    margin: 2rem 0;
     text-transform: uppercase;
-    transform: translateX(-50%);
-    top: 2%;
-    width: 80%;
 }
 
 .nav__list {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nav__list-item {

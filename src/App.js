@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 // Styles
 import './App.scss';
@@ -14,9 +14,15 @@ import store from './store';
 
 const App = () => (
     <Provider store={store}>
-        <Nav />
-        <Display />
-        <Contact />
+        <div className='wrapper'>
+            <Nav />
+
+            <div>
+                <Display />
+            </div>
+
+            <Contact />
+        </div>
     </Provider>
 );
 

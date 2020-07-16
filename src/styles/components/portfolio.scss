@@ -1,18 +1,6 @@
-.portfolio {
-    left: 50%;
-    position: absolute;
-    text-align: center;
-    top: 45.2%;
-    transform: translateX(-50%);
-    width: 80%;
-}
-
 .portfolio__project {
-    margin-top: 1.8rem;
-}
-
-.portfolio__project:first-child {
-    margin-top: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio__project-num {
@@ -42,22 +30,14 @@
     font-weight: lighter;
     letter-spacing: 2px;
     list-style: none;
+    margin: 0 0.5rem;
     text-transform: uppercase;
-    transition: display 1s ease;
-    transition-delay: 5s;
-
-    & li {
-        margin-top: 0.5rem;
-    }
-}
-
-.portfolio__project-title {
-    display: inline-block;
     transition: all 1s ease;
-    transition-delay: 1s;
 }
 
-.portfolio__project-title:hover ~ ul {
-    display: block;
-    transition-delay: 1s;
+#portfolio__flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 7rem;
+    justify-content: space-between;
 }

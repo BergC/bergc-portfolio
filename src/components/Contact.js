@@ -7,12 +7,17 @@ const Contact = () => (
                 <a
                     href='https://www.linkedin.com/in/christopher-berg-159b23b5/'
                     target='_blank'
+                    rel='noopener noreferrer'
                 >
                     <ion-icon name='logo-linkedin'></ion-icon>
                 </a>
             </li>
             <li className='contact__list-item'>
-                <a href='https://github.com/BergC' target='_blank'>
+                <a
+                    href='https://github.com/BergC'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                >
                     <ion-icon name='logo-github'></ion-icon>
                 </a>
             </li>
@@ -20,6 +25,7 @@ const Contact = () => (
                 <a
                     href='https://stackoverflow.com/users/11904900/paoiherpoais'
                     target='_blank'
+                    rel='noopener noreferrer'
                 >
                     <ion-icon name='logo-stackoverflow'></ion-icon>
                 </a>

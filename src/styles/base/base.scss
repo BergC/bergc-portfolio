@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-html {
-    background: url(../../images/hero.jpg) no-repeat 50% 50% fixed;
-    background-size: cover;
-}
-
 html,
 body {
     color: #fff;
@@ -18,8 +13,13 @@ body {
     text-align: center;
 }
 
+html {
+    background: url(../../images/hero.jpg) no-repeat 50% 50% fixed;
+    background-size: cover;
+}
+
 body {
-    animation: fadeInAnimation ease 4s;
+    animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }

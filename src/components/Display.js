@@ -7,15 +7,17 @@ import Portfolio from './Portfolio';
 
 const Display = ({ showPortfolio, showAbout, togglePortfolio }) => (
     <Fragment>
-        <BigHero />
-
         {!showPortfolio && !showAbout && (
-            <button
-                className='bighero__button'
-                onClick={() => togglePortfolio()}
-            >
-                See Stuff
-            </button>
+            <Fragment>
+                <BigHero />
+
+                <button
+                    className='bighero__button'
+                    onClick={() => togglePortfolio()}
+                >
+                    See Stuff
+                </button>
+            </Fragment>
         )}
 
         {showPortfolio && <Portfolio />}

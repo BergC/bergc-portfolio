@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bergc-portfolio/static/css/main.20b934b8.chunk.css",
-    "main.js": "/bergc-portfolio/static/js/main.3ef91704.chunk.js",
-    "main.js.map": "/bergc-portfolio/static/js/main.3ef91704.chunk.js.map",
+    "main.js": "/bergc-portfolio/static/js/main.5e81f7ec.chunk.js",
+    "main.js.map": "/bergc-portfolio/static/js/main.5e81f7ec.chunk.js.map",
     "runtime-main.js": "/bergc-portfolio/static/js/runtime-main.52a0b02c.js",
     "runtime-main.js.map": "/bergc-portfolio/static/js/runtime-main.52a0b02c.js.map",
     "static/js/2.f24849ff.chunk.js": "/bergc-portfolio/static/js/2.f24849ff.chunk.js",
     "static/js/2.f24849ff.chunk.js.map": "/bergc-portfolio/static/js/2.f24849ff.chunk.js.map",
     "index.html": "/bergc-portfolio/index.html",
-    "precache-manifest.9240ced4d16dd9ee10cbf089143040dc.js": "/bergc-portfolio/precache-manifest.9240ced4d16dd9ee10cbf089143040dc.js",
+    "precache-manifest.58118a1224bec3403b14dade59c98bbd.js": "/bergc-portfolio/precache-manifest.58118a1224bec3403b14dade59c98bbd.js",
     "service-worker.js": "/bergc-portfolio/service-worker.js",
     "static/css/main.20b934b8.chunk.css.map": "/bergc-portfolio/static/css/main.20b934b8.chunk.css.map",
     "static/js/2.f24849ff.chunk.js.LICENSE.txt": "/bergc-portfolio/static/js/2.f24849ff.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.52a0b02c.js",
     "static/js/2.f24849ff.chunk.js",
     "static/css/main.20b934b8.chunk.css",
-    "static/js/main.3ef91704.chunk.js"
+    "static/js/main.5e81f7ec.chunk.js"
   ]
 }

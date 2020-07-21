@@ -13,7 +13,12 @@ const Portfolio = () => (
                 <div className='portfolio__project'>
                     <h3 className='portfolio__project-title'>
                         <sup className='portfolio__project-num'>01</sup>
-                        <a href='#' className='portfolio__project-link'>
+                        <a
+                            href='https://bergc-snowbound.herokuapp.com/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='portfolio__project-link'
+                        >
                             Snowbound
                         </a>
                     </h3>
@@ -30,7 +35,12 @@ const Portfolio = () => (
                 <div className='portfolio__project'>
                     <h3 className='portfolio__project-title'>
                         <sup className='portfolio__project-num'>02</sup>
-                        <a href='#' className='portfolio__project-link'>
+                        <a
+                            href='https://bergc-diamondcost.herokuapp.com/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='portfolio__project-link'
+                        >
                             Diamonds Discovered
                         </a>
                     </h3>
@@ -47,7 +57,12 @@ const Portfolio = () => (
                 <div className='portfolio__project'>
                     <h3 className='portfolio__project-title'>
                         <sup className='portfolio__project-num'>03</sup>
-                        <a href='#' className='portfolio__project-link'>
+                        <a
+                            href='https://bergc-expensify.herokuapp.com/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='portfolio__project-link'
+                        >
                             Expensify
                         </a>
                     </h3>

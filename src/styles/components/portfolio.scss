@@ -1,43 +1,96 @@
 .portfolio__project {
-    display: flex;
-    justify-content: center;
-}
+    margin: 2rem 0;
 
-.portfolio__project-num {
-    font-size: 0.8rem;
-    font-weight: lighter;
-    margin-right: 0.2rem;
-}
+    &-num {
+        font-size: 0.8rem;
+        font-weight: lighter;
+        margin-right: 0.2rem;
+    }
 
-.portfolio__project-link {
-    color: grey;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 0.2s ease-in-out;
+    &-title {
+        color: grey;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 0.2s ease-in-out;
 
-    &:hover {
-        color: rgb(23, 167, 88);
-        letter-spacing: 2px;
+        &:hover {
+            color: rgb(23, 167, 88);
+            cursor: pointer;
+            letter-spacing: 2px;
+        }
+
+        &--open {
+            color: rgb(23, 167, 88);
+            font-weight: lighter;
+            letter-spacing: 2px;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
     }
 }
 
-.portfolio__frameworks {
-    color: white;
-    display: none;
-    font-size: 0.8rem;
+.portfolio__project-detail-wrapper {
     font-weight: lighter;
-    letter-spacing: 2px;
-    list-style: none;
-    margin: 0 0.5rem;
-    text-transform: uppercase;
-    transition: all 1s ease;
+    margin: 0 auto;
+    max-width: 45rem;
+
+    & button {
+        background-color: #121212;
+        border: 1px solid rgb(23, 167, 88);
+        cursor: pointer;
+        font-size: 1rem;
+        letter-spacing: 0.5rem;
+        margin-bottom: 1rem;
+        outline: #121212;
+        padding: 0.8rem 4rem;
+        text-transform: uppercase;
+        transition: all 0.5s linear;
+
+        & a {
+            color: white;
+            text-decoration: none;
+        }
+    }
 }
 
-#portfolio__flex-wrapper {
+.bighero__button {
+    background-color: #121212;
+    border: 1px solid rgb(23, 167, 88);
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    outline: #121212;
+    padding: 0.8rem 4rem;
+    text-transform: uppercase;
+    transition: all 0.5s linear;
+
+    &:hover {
+        background-color: rgb(23, 167, 88);
+    }
+}
+
+.portfolio__project-detail {
     display: flex;
-    flex-direction: column;
-    height: 7rem;
     justify-content: space-between;
+    margin: 1rem 0;
+
+    & h4 {
+        font-weight: lighter;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    & p {
+        flex-basis: 70%;
+        letter-spacing: 1.5px;
+        line-height: 1.5em;
+        text-align: justify;
+    }
 }

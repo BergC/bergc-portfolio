@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/bergc-portfolio/static/css/main.55ba5ff5.chunk.css",
-    "main.js": "/bergc-portfolio/static/js/main.f13a69a7.chunk.js",
-    "main.js.map": "/bergc-portfolio/static/js/main.f13a69a7.chunk.js.map",
+    "main.css": "/bergc-portfolio/static/css/main.564ad587.chunk.css",
+    "main.js": "/bergc-portfolio/static/js/main.cab89be8.chunk.js",
+    "main.js.map": "/bergc-portfolio/static/js/main.cab89be8.chunk.js.map",
     "runtime-main.js": "/bergc-portfolio/static/js/runtime-main.276670ee.js",
     "runtime-main.js.map": "/bergc-portfolio/static/js/runtime-main.276670ee.js.map",
     "static/js/2.6fe85684.chunk.js": "/bergc-portfolio/static/js/2.6fe85684.chunk.js",
     "static/js/2.6fe85684.chunk.js.map": "/bergc-portfolio/static/js/2.6fe85684.chunk.js.map",
     "index.html": "/bergc-portfolio/index.html",
-    "precache-manifest.83f3d165f617601c3ee61e26459768e1.js": "/bergc-portfolio/precache-manifest.83f3d165f617601c3ee61e26459768e1.js",
+    "precache-manifest.3946b1fe0cc703ca1e50e84a02752036.js": "/bergc-portfolio/precache-manifest.3946b1fe0cc703ca1e50e84a02752036.js",
     "service-worker.js": "/bergc-portfolio/service-worker.js",
-    "static/css/main.55ba5ff5.chunk.css.map": "/bergc-portfolio/static/css/main.55ba5ff5.chunk.css.map",
+    "static/css/main.564ad587.chunk.css.map": "/bergc-portfolio/static/css/main.564ad587.chunk.css.map",
     "static/js/2.6fe85684.chunk.js.LICENSE.txt": "/bergc-portfolio/static/js/2.6fe85684.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/bergc-portfolio/static/media/hero.7a3b509d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.276670ee.js",
     "static/js/2.6fe85684.chunk.js",
-    "static/css/main.55ba5ff5.chunk.css",
-    "static/js/main.f13a69a7.chunk.js"
+    "static/css/main.564ad587.chunk.css",
+    "static/js/main.cab89be8.chunk.js"
   ]
 }

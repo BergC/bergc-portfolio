@@ -1,16 +1,37 @@
-import React from 'react';
-import Fade from 'react-reveal';
+import React, { useRef, useEffect } from 'react';
+import { gsap } from 'gsap';
 
 import BigHero from './BigHero';
 
-const About = () => (
-    <div className='about'>
-        <Fade top>
-            <BigHero />
-        </Fade>
+const About = () => {
+    const aboutRefIn = useRef(null);
+    const bigHeroRefIn = useRef(null);
 
-        <Fade bottom>
-            <div className='wrapper__content'>
+    useEffect(() => {
+        gsap.from(aboutRefIn.current, 0.8, {
+            y: 300,
+            delay: 0.8,
+            ease: 'power1.out',
+            opacity: 0,
+        });
+    }, []);
+
+    useEffect(() => {
+        gsap.from(bigHeroRefIn.current, 0.8, {
+            y: -100,
+            delay: 0.8,
+            ease: 'power1.out',
+            opacity: 0,
+        });
+    }, []);
+
+    return (
+        <div className='about'>
+            <div ref={bigHeroRefIn}>
+                <BigHero />
+            </div>
+
+            <div ref={aboutRefIn} className='wrapper__content'>
                 <p className='about__text'>
                     While the majority of my middle school and high school
                     courses are a blur, I can vividly remember when my best
@@ -50,8 +71,8 @@ const About = () => (
                     pursuit of knowledge and happiness.
                 </p>
             </div>
-        </Fade>
-    </div>
-);
+        </div>
+    );
+};
 
 export default About;

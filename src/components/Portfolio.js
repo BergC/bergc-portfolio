@@ -1,18 +1,40 @@
 // Import packages.
-import React, { Fragment } from 'react';
-import Fade from 'react-reveal';
+import React, { Fragment, useRef, useEffect } from 'react';
+import { gsap } from 'gsap';
 import Accordion from 'react-bootstrap/Accordion';
 
 // Import components.
 import BigHero from './BigHero';
 
-const Portfolio = () => (
-    <Fragment>
-        <Fade top>
-            <BigHero />
-        </Fade>
-        <Fade bottom>
-            <div id='portfolio__flex-wrapper'>
+const Portfolio = () => {
+    const portfolioRefIn = useRef(null);
+    const bigHeroRefIn = useRef(null);
+
+    useEffect(() => {
+        gsap.from(portfolioRefIn.current, 0.8, {
+            y: 150,
+            delay: 0.8,
+            ease: 'power1.out',
+            opacity: 0,
+        });
+    }, []);
+
+    useEffect(() => {
+        gsap.from(bigHeroRefIn.current, 0.8, {
+            y: -100,
+            delay: 0.8,
+            ease: 'power1.out',
+            opacity: 0,
+        });
+    }, []);
+
+    return (
+        <Fragment>
+            <div ref={bigHeroRefIn}>
+                <BigHero />
+            </div>
+
+            <div ref={portfolioRefIn} id='portfolio__flex-wrapper'>
                 <div className='portfolio__project'>
                     <h3 className='portfolio__project-title'>
                         <sup className='portfolio__project-num'>01</sup>
@@ -76,8 +98,8 @@ const Portfolio = () => (
                     </ul>
                 </div>
             </div>
-        </Fade>
-    </Fragment>
-);
+        </Fragment>
+    );
+};
 
 export default Portfolio;

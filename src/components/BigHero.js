@@ -4,9 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 const BigHero = ({ showAbout }) => {
     return (
-        <div
-            className={showAbout ? 'bighero bighero--about-display' : 'bighero'}
-        >
+        <div className='bighero'>
             <h1 className='bighero__header'>
                 <Typewriter
                     options={{

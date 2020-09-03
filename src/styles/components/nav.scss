@@ -4,30 +4,30 @@
     letter-spacing: 2px;
     margin: 2rem 0;
     text-transform: uppercase;
-}
 
-.nav__list {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-}
-
-.nav__list-item {
-    color: grey;
-    transition: all 0.3s ease-out;
-
-    &:hover {
-        color: white;
-        cursor: pointer;
+    &__list {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
     }
-}
 
-.nav__list-item a {
-    color: grey;
-    text-decoration: none;
-    transition: all 0.3s ease-out;
+    &__list-item {
+        color: grey;
+        transition: all 0.3s ease-out;
 
-    &:hover {
-        color: white;
+        &:hover {
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    &__list-item a {
+        color: grey;
+        text-decoration: none;
+        transition: all 0.3s ease-out;
+
+        &:hover {
+            color: white;
+        }
     }
 }

@@ -49,7 +49,7 @@ const Portfolio = () => {
 
     return (
         <Fragment>
-            <div ref={portfolioRefIn}>
+            <div ref={portfolioRefIn} id='portfolio__wrapper'>
                 <div className='portfolio__project'>
                     <h3 onClick={onClick}>
                         <sup className='portfolio__project-num'>01</sup>

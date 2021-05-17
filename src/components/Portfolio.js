@@ -21,9 +21,10 @@ const Portfolio = () => {
         snowboundOpen: false,
         diamondsOpen: false,
         codeWarsOpen: false,
+        leetCodeOpen: false
     });
 
-    const { snowboundOpen, diamondsOpen, codeWarsOpen } = isOpen;
+    const { snowboundOpen, diamondsOpen, codeWarsOpen, leetCodeOpen } = isOpen;
 
     const onClick = (e) => {
         e.preventDefault();
@@ -44,6 +45,11 @@ const Portfolio = () => {
                 ...isOpen,
                 codeWarsOpen: !codeWarsOpen,
             });
+        } else if (target === 'LeetCode') {
+            setOpen({
+                ...isOpen,
+                leetCodeOpen: !leetCodeOpen
+            })
         }
     };
 
@@ -209,6 +215,54 @@ const Portfolio = () => {
 
                             <a
                                 href='https://www.codewars.com/users/paosiehf'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                <button className='bighero__button'>Go</button>
+                            </a>
+                        </div>
+                    ) : null}
+                </div>
+
+                <div className='portfolio__project'>
+                    <h3 onClick={onClick}>
+                        <sup className='portfolio__project-num'>04</sup>
+                        <span
+                            className={
+                                leetCodeOpen
+                                    ? 'portfolio__project-title--open'
+                                    : 'portfolio__project-title'
+                            }
+                        >
+                            LeetCode
+                        </span>
+                    </h3>
+
+                    {leetCodeOpen ? (
+                        <div className='portfolio__project-detail-wrapper'>
+                            <div className='portfolio__project-detail'>
+                                <h4>Purpose</h4>
+                                <p>Practice my basic coding skills.</p>
+                            </div>
+
+                            <div className='portfolio__project-detail'>
+                                <h4>Inspiration</h4>
+                                <p>
+                                    I wanted to make sure that I was taking time
+                                    to challenge myself with problems created by
+                                    others. I also wanted to ensure that I
+                                    didn't forget what I was learning, after all
+                                    practice makes perfect.
+                                </p>
+                            </div>
+
+                            <div className='portfolio__project-detail'>
+                                <h4>Tools</h4>
+                                <p>Python</p>
+                            </div>
+
+                            <a
+                                href='https://leetcode.com/paoiherpoais/'
                                 target='_blank'
                                 rel='noopener noreferrer'
                             >
